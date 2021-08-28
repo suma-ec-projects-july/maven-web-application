@@ -1,4 +1,4 @@
-node('master')
+node
 {
   def mavenhome = tool name : "maven3.8.2" 
   echo "GitHub BranhName ${env.BRANCH_NAME}"
