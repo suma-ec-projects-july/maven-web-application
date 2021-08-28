@@ -33,7 +33,7 @@ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@52
 }
 stage('send Email notification')
 {
-emailtext body: '''Finished the build...!
+emailext body: '''Finished the build...!
 
 
 Regards,
